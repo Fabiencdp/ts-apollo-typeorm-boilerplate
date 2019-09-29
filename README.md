@@ -1,7 +1,5 @@
-# Awesome Project Build with TypeORM
+Types and graphql schema are auto-generated
 
 Steps to run this project:
 
-1. Run `npm i` command
-2. Setup database settings inside `ormconfig.json` file
-3. Run `npm start` command
+1. Run `npm run dev` command to start everything
