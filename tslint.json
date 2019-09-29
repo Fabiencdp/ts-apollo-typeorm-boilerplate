@@ -1,0 +1,30 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint-config-airbnb"
+  ],
+  "rules": {
+    "align": false,
+    "import-name": false,
+    "max-line-length": [true, 120],
+    "no-consecutive-blank-lines": [true, 2],
+    "ordered-imports": [
+      false,
+      {
+        "grouped-imports": true,
+        "import-sources-order": "any",
+        "named-imports-order": "any"
+      }
+    ]
+  },
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts",
+      "coverage/lcov-report/*.js",
+      "src/registerServiceWorker.ts",
+      "./generated/**/*",
+      "build/**/*"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports":true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "outDir": "build/dist",
+    "paths": {
+      "@api": ["./generated"]
+    }
+  },
+  "exclude": [
+    "build",
+    "node_modules",
+    ".idea"
+  ]
+}

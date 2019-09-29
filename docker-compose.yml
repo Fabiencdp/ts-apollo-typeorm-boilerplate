@@ -1,0 +1,18 @@
+version: '3'
+services:
+  postgres:
+    image: postgres:latest
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - magnetoo-db:/var/lib/postgresql/data
+
+volumes:
+  magnetoo-db:
+
+networks:
+  magnetoo-api:

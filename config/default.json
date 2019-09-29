@@ -1,0 +1,6 @@
+{
+  "jobs": {
+    "maxAttempts": 10,
+    "maxLockTime": "5 minutes"
+  }
+}
